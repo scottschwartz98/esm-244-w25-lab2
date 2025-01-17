@@ -207,7 +207,7 @@ Now fit each model to the training set using the `lm()`. Name each model `traini
 
 ```{r}
 training_lm1 <- lm(f1,data=train_df)
-summary(trianing_lm1)
+summary(training_lm1)
 
 training_lm2 <-lm(f2,data=train_df)
 summary(training_lm2)
